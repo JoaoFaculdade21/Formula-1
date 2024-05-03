@@ -1,0 +1,64 @@
+#UI {
+    height: 100px;
+    background-color: #3259ad; 
+    border: 2px solid #000000; 
+    padding: 15px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+}
+
+#user-balance {
+    font-size: 30px; 
+    margin-right: auto; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold; 
+    color: white;
+    text-shadow: 2px 2px 1px rgb(165, 32, 32); /* Adicionando sombra ao texto */
+
+}
+
+#carsSelect {
+    padding: 5px; 
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+
+#moneyInput {
+    padding: 5px; 
+    width: 100px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+#BetButton, #retryButton {
+    padding: 8px 20px; 
+    font-size: 16px; 
+    background-color: #bb2c2c; 
+    color: white;
+    font-weight: bold;
+    border: none; 
+    border-radius: 100px; 
+    cursor: pointer; 
+    margin-right: 5px;
+}
+
+#BetButton, #retryButton {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #09a5ff;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: padding 0.3s ease, background-color 0.3s ease; 
+}
+
+#BetButton:hover, #retryButton:hover {
+    padding: 9px 22px;
+    background-color: #1e3061;
+}

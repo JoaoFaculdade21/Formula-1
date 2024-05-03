@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race</title>
+    <link rel="stylesheet" href="css/speedtrack.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/cars.css">
+    <link rel="stylesheet" href="css/UI.css">
+</head>
+<body>
+    <div id="UI">
+        <p id="user-balance">$100</p>
+        <select id="carsSelect">
+            <option value="car-1">Red</option>
+            <option value="car-2">Blue</option>
+            <option value="car-3">White</option>
+            <option value="car-4">Pink</option>
+            <option value="car-5">Yellow</option>
+        </select>
+        <input id="moneyInput" type="text">
+        <button id="BetButton"onclick="makeBet()">Make a bet</button>
+        <button id="retryButton" onclick="retryBet()" disabled>Retry</button>
+    </div>
+    <div id="speedtrack">
+        <div id="car-1" class="car"></div>
+        <div id="car-2" class="car"></div>
+        <div id="car-3" class="car"></div>
+        <div id="car-4" class="car"></div>
+        <div id="car-5" class="car"></div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>

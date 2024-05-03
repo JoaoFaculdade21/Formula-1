@@ -1,0 +1,39 @@
+.car {
+  height: 0px;
+  width: 100px;
+}
+
+#car-1 {
+  width: 100px;
+  height: 70px;
+  background-image: url(../assets/Red.png);
+  background-size: contain;
+}
+
+#car-2 {
+  width: 100px;
+  height: 70px;
+  background-image: url(../assets/Blue.png);
+  background-size: contain;
+}
+
+#car-3 {
+  width: 100px;
+  height: 70px;
+  background-image: url(../assets/White.png);
+  background-size: contain;
+}
+
+#car-4 {
+  width: 100px;
+  height: 70px;
+  background-image: url(../assets/Pink.png);
+  background-size: contain;
+}
+
+#car-5 {
+  width: 100px;
+  height: 70px;
+  background-image: url(../assets/Yellow.png);
+  background-size: contain;
+}
